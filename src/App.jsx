@@ -21,7 +21,7 @@ function App() {
     <>
       <div className="bg-green-900 w-full flex flex-col items-center justify-center py-10">
         <input
-          type="text"
+          type="text" placeholder="City Name"
           className="bg-black text-white text-3xl text-center px-3 pt-4 pb-2 rounded-[2rem]"
           onChange={fun}
         />
